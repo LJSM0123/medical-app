@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+  padding: 0 50px;
+  background-color: #9ec8f5;
+  background-image: url("../images/doctores.png");
+  background-size: 800px 800px;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: left;
+  background-position-x: 30px;
+  background-position-y: -60px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+a{
+  text-decoration: none;
+}
+
+#formDoctor {
+  padding: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#listadoDoctores {
+  list-style-type: none;
+  padding: 0;
+}
+
+#listadoDoctores li {
+  font-size: 16px;
+  background-color: #93e7f6;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.enlaces{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  background-color: rgb(101, 230, 94);
+  margin-top: 31px;
+}
+
+.ci, .doc, .pa, .vo{
+  margin-right: 45px;
+  font-size: 20px;
+  font-family:cursive;
+}
+

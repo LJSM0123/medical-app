@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/citas.css">
+    <title>Mi Aplicativo Médico - Citas</title>
+  </head>
+  <body>
+    <h1>Mi Aplicativo Médico - Citas</h1>
+    <form id="formCita">
+      <label for="numeroDocumentoPaciente">Número de Documento del Paciente:</label>
+      <input type="text" id="numeroDocumentoPaciente" required /><br />
+      <label for="especialidadCita">Especialidad:</label>
+      <select id="especialidadCita">
+        <option value="Medicina general">Medicina general</option>
+        <option value="Cardiología">Cardiología</option>
+        <option value="Medicina interna">Medicina interna</option>
+        <option value="Dermatología">Dermatología</option>
+        <option value="Rehabilitación física">Rehabilitación física</option>
+        <option value="Psicología">Psicología</option>
+        <option value="Odontología">Odontología</option>
+        <option value="Radiología">Radiología</option>
+      </select><br />
+      <button type="submit">Guardar</button>
+    </form>
+    <script src="citas.js"></script>
+  </body>
+  <footer>
+    <div class="enlaces">
+      <a class="ci" href="Lista_Cita.html">Ir a Lista de Citas</a><br>
+      <a class="pa" href="pacientes.html">Ir a Pacientes</a><br>
+      <a class="doc" href="doctores.html">Ir a Doctores</a>
+    </div>
+  </footer>
+</html>
